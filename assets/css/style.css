@@ -3,7 +3,7 @@
     padding: 0;
 }
 
-
+/* Header styling */
 header{
     font-size: 150%;
     font-family: sans-serif;
@@ -14,14 +14,16 @@ header{
     margin-bottom: 100px;
     background-color: rgb(54, 53, 53);
 }
-
+/* Current day styling */
 header p {
     margin: 10px 0 0 0;
 }
+/* Main body styling */
 body{
     margin-bottom: 100px;
     background-color:rgb(36, 36, 36)
 }
+/* Main styling for all time boxes */
 div{
     display: flex;
     position: relative;
@@ -32,7 +34,7 @@ div{
     margin: 5px 0 2px 10%;
     box-shadow: none;
 }
-
+/* Styling for text areas of time boxes */
 textarea{
     flex-grow: 1;
     padding-left: 10px;
@@ -46,7 +48,7 @@ textarea{
     border-bottom-right-radius: 12px;
     resize: none;
 }
-
+/* Save button styling */
 button{
     position: absolute;
     background-color: rgb(0, 162, 255);
@@ -59,6 +61,7 @@ button{
     border-top-right-radius: 12px;
     border-bottom-right-radius: 12px;
 }
+/* Styling for time box labels */
 label{
     text-align: center;
     padding-top: 35px;
@@ -69,22 +72,23 @@ label{
     border-top-left-radius: 12px;
     border-bottom-left-radius: 12px;
 }
+/* Makes save button change color on hover */
  button:hover{
     background-color: rgb(66, 125, 251);
  }
-
+/* Floppy disk icon sizing */
  img{
     width: 35px;
  }
-
+/* Styling for time boxes in the present */
  .present{
     background-color: red;
  }
-
+/* Styling for time boxes in the future */
  .future{
     background-color: rgb(5, 206, 5);
  }
-
+/* Styling for time boxes in the past */
  .past{
     background-color: rgb(195, 189, 189);
  }
